@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AllScenes/Initalize.unity
+    guid: f3af8521f9ce8e147aaff45073b9aaa6
+  - enabled: 1
+    path: Assets/AllScenes/Start.unity
+    guid: a322962587c658f45bdbec75087bae94
+  - enabled: 1
+    path: Assets/AllScenes/Running.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/AllScenes/Shop.unity
+    guid: 887e252bf42ee5b46ac7819a6aeed32b
+  - enabled: 1
+    path: Assets/AllScenes/Settings.unity
+    guid: 9b4a3a67d4fb2874d92c44e167735972
+  - enabled: 1
+    path: Assets/AllScenes/MusicLobby.unity
+    guid: 0aa25d34a4698734cb607738f1b5b4dd
+  - enabled: 1
+    path: Assets/AllScenes/MusicGame.unity
+    guid: 68feda28051d78e4d9e096e93fbcc9d7
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

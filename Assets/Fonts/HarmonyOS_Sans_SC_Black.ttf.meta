@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 0b615f62daeb90941ba40f815ffd205a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - HarmonyOS Sans SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7325ac24f85acaa49a11f3e6e116824d, type: 3}
+  - {fileID: 12800000, guid: fc2faef4a7fdd044b8817ecd5e518677, type: 3}
+  - {fileID: 12800000, guid: 4581727db7442854984d46390e1ce54b, type: 3}
+  - {fileID: 12800000, guid: 8e9a3d13c0aaf7a4f8ecff501e63dd51, type: 3}
+  - {fileID: 12800000, guid: e333852560aa6704c9a7962edb280e32, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
