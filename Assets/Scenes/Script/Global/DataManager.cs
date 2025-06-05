@@ -35,11 +35,7 @@ public class DataManager
         public int count;
     }
 
-    public struct ConnectionInfo {
-        public string ip;
-        public ushort port;
-        public string playerID;
-    }
+
 
     public struct DunziSettings {
         public float SoundVolume;

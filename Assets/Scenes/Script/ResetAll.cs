@@ -1,4 +1,3 @@
-using Mirror;
 using UnityEngine;
 
 using UnityEngine.SceneManagement;
@@ -27,8 +26,6 @@ public class ResetAll : MonoBehaviour
     {
         Time.timeScale = 1;
         DataStorager.SaveStatus();
-        NetworkClient.Disconnect();
-        // Destroy(GameObject.Find("MultyScript"));
         SceneManager.LoadScene("Initalize");
     }
 

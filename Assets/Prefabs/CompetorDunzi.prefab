@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b140072a8f052a34b872d1c0b2960433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostDunzi: {fileID: 7226552749379929806}
+  ghostDunzi: {fileID: 0}
 --- !u!1 &5580022069679964340
 GameObject:
   m_ObjectHideFlags: 0

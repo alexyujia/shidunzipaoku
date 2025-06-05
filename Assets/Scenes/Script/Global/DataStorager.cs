@@ -4,7 +4,6 @@ public class DataStorager : MonoBehaviour
 {
   // public GameObject dunzi;
   public static Item coin;
-  public static ConnectionInfo coninfo;
 
   public static Item maxLife;
 
@@ -16,15 +15,6 @@ public class DataStorager : MonoBehaviour
     settings = InitSettings();
     coin = InitItem("coin",0);
     maxLife = InitItem("life",1);
-    if(IsDataed("lastcon")){
-      coninfo = Load<ConnectionInfo>("lastcon");
-    } else {
-      coninfo = new (){
-        ip = "",
-        port = 7892,
-        playerID = ""
-      };
-    }
   }
 
   private Item InitItem(string item_name,int default_count = 0){
@@ -58,10 +48,6 @@ public class DataStorager : MonoBehaviour
 
   public static void SaveStatus(){
     Save("coin", coin);
-  }
-
-  public static void SaveConInfo(){
-    Save("lastcon", coninfo);
   }
 
   public static void SaveMaxLife(){
